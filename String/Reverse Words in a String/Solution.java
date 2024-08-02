@@ -1,6 +1,9 @@
 import java.util.Arrays;
 
+// Reverse Words in a String
+
 class Solution {
+
     public static void main(String[] args) {
 
         String str = "One Two Three Four"; // sentence of four words
@@ -13,8 +16,9 @@ class Solution {
             words[n-i-1] = temp;
         }
         
-        for (String ch : words){
-            System.out.print(ch + " ");
+        System.out.print("Reversed String is -> ");
+        for (String reversedStr : words){
+            System.out.print(reversedStr + " ");
         } // printing the Reversed String
         
         
